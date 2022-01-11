@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="bncode",
-    version="0.0.1",
+    version="0.0.4",
     author="boon4681",
     author_email="boon4681dev@gmail.com",
     description="BNcode",
@@ -13,8 +13,8 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/boon4681/bncode.git",
     license="MIT",
-    packages=find_packages(where="bncode"),
-    package_dir={"": "bncode"},
+    packages=find_packages(),
+    package_dir={"bncode": "bncode"},
     install_requires=[
         'numpy','opencv-python'
     ],
