@@ -1,0 +1,7 @@
+*.pyc
+*test
+dist
+build
+*egg*
+*__pycache__
+run.py
