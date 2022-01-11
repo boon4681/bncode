@@ -57,6 +57,11 @@ read the encoding section ---
 
 <div class="py-10"></div>
 
+## **Installation**
+```sh
+pip install bncode
+```
+
 ## **Example Code**
 **Read and write**
 
